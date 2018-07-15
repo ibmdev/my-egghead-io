@@ -17,6 +17,10 @@ https://www.youtube.com/watch?v=Y_XM3Bu-4yc
 
 > ng new tensorflowjs --prefix tf
 
+## Compatibilité TensorFlowJS avec Angular 6
+1) Editer le fichier node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/browser.js
+2) Changer node: false, par : node: { crypto: true, stream: true },
+
 
 
 
